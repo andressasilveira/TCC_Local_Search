@@ -1,0 +1,19 @@
+{
+  "orderOfFields": [{
+      "id": 1,
+      "step": 1
+    }, {
+      "id": 3,
+      "step": 2
+    }, {
+      "id": 2,
+      "step": 3
+    }, {
+      "id": 4,
+      "step": 4
+    }, {
+      "id": 5,
+      "step": 5
+    }
+  ]
+}
