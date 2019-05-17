@@ -2,11 +2,22 @@
 import math
 import random
 
-## clusterizar entre campos usados e não usados
+from FileCluster import FileCluster
+
+STEP_PROPERTY = 'step'
+ID_PROPERTY = 'id'
+TIMES_PROPERTY = 'times'
+
+files_to_be_used = ['./testcases/case1.json', './testcases/case2.json', './testcases/case3.json']
+num_fields = 6  # numero total de campos
+num_users = len(files_to_be_used)
+
+# estado inicial
+initial_state = []
+unused_fields = []
+
 # parametros para mudar a temperatura: uso e ordem
 # maior numero de uso e menor for a ordem mais energia
-num_fields = 5  # numero total de campos
-num_users = 10  # número de usuários
 num_cost_increases = 100  # valor de aumento do custo
 avg_cost_increase = 200  # valor médio de aumento do custo
 acc_ratio = 0.75  # taxa de aceitação (acceptance ratio) entre 0 e 1
@@ -23,24 +34,16 @@ final_temperature = -beta * avg_cost_increase / math.log(prob_e)
 # taxa de diminuição da temperatura
 alpha = math.pow(final_temperature / initial_temperature, 1 / num_temperature)
 
-# considerando 10 usuários
-field1 = {"times": 8, "avg_order": 4}
-field2 = {"times": 1, "avg_order": 5}
-field3 = {"times": 7, "avg_order": 3}
-field4 = {"times": 2, "avg_order": 2}
-field5 = {"times": 8, "avg_order": 1}
-
-# estado inicial
-initial_state = [field1, field2, field3, field4, field5]
-unused_fields = []
-
-
 def simulated_annealing(max_iter, initial_temperature, alpha, final_temperature, initial_state):
+    #clusteriza as informações dos arquivos
+    fileCluster = FileCluster(files_to_be_used)
+    initial_state = fileCluster.cluster_files()
+
     t = initial_temperature  # temperatura inicial
     current_state = initial_state.copy()  # estado atual recebe copia do estado inicial
+    print("Original State:", current_state)
     # enquanto o t for maior/igual à temperatura final
     while t >= final_temperature:
-        print("Original State:", current_state)
         for i in range(1, max_iter):
             # proximo estado recebe resultado do action_on com param do estado atual
             next_state = action_on(current_state)
@@ -50,8 +53,6 @@ def simulated_annealing(max_iter, initial_temperature, alpha, final_temperature,
             current_value = value(current_state)
             # delta de energia usado para a penalidade é o valor do proximo estado menos o valor do estado atual
             energy_delta = next_value - current_value
-            print("For index " + str(i) + ": Calculate " + str(next_value) + " - " + str(current_value) + " = " + str(
-                energy_delta))
             # se o delta for negativo ou fator de probabilidade maior/igual ao numero random
             if (energy_delta < 0) or (math.exp(-energy_delta / t) >= random.randint(0, 10)):
                 current_state = next_state  # troca estado para o proximo
@@ -59,7 +60,6 @@ def simulated_annealing(max_iter, initial_temperature, alpha, final_temperature,
         t = alpha * t
     print("Final", current_state)
     print("Energy of final state:", value(current_state))
-
 
 # calcula energia: quanto maior a energia, pior o resultado
 def value(state):
@@ -76,9 +76,9 @@ def value(state):
         # posição do estado atual
         position = state[i]
         # nro de vezes que o campo foi acessado nesse estado
-        times = position['times']
+        times = position[TIMES_PROPERTY]
         # media da ordem nas telas do estado atual
-        position = position['avg_order']
+        position = position[STEP_PROPERTY]
 
         # Verifica percentual de uso  dos campos
 
@@ -86,7 +86,6 @@ def value(state):
         # nro de vezes que o campo é acessado é menor que o número mínimo de usuários
         if (position >= avg_order and times < min_users) or (times < min_users):
             penalty = len(state) - i  # Aplica penalidade como o tamanho do estado +1
-            print('Penalty resulted by ' + str(len(state)) + '-' + str(i) + ' resulted in ' + str(penalty))
             energy += penalty  # soma penalidade + 1 ao total de energia
         # [BOM+] Se nro de vezes que o campo é acessado é maior que o número mínimo de usuários
         elif times > more_equal_avg_user__use_field:
@@ -95,8 +94,6 @@ def value(state):
         # nro de vezes que o campo é acessado é maior que o número mínimo de usuários
         elif position <= avg_order and times > min_users:
             energy += 1
-
-        print('This is my result: ' + str(energy))
 
     return energy
 
