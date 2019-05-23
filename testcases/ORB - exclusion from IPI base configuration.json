@@ -1,0 +1,80 @@
+{
+  "orderOfFields": [
+    {
+      "id": "OrderType",
+      "step": 1
+    },
+    {
+      "id": "SalesOrg",
+      "step": 2
+    },
+    {
+      "id": "DistChannel",
+      "step": 3
+    },
+    {
+      "id": "Division",
+      "step": 4
+    },
+    {
+      "id": "Enter",
+      "step": 5
+    },
+    {
+      "id": "SoldToParty",
+      "step": 6
+    },
+    {
+      "id": "PONum",
+      "step": 7
+    },
+    {
+      "id": "Material",
+      "step": 8
+    },
+    {
+      "id": "OrderQtd",
+      "step": 9
+    },
+    {
+      "id": "ItemDClick",
+      "step": 10
+    },
+    {
+      "id": "ShippingTab",
+      "step": 11
+    },
+    {
+      "id": "Plnt",
+      "step": 12
+    },
+    {
+      "id": "CountryTab",
+      "step": 13
+    },
+    {
+      "id": "TaxCode",
+      "step": 14
+    },
+    {
+      "id": "CFOP",
+      "step": 15
+    },
+    {
+      "id": "CondTab",
+      "step": 16
+    },
+    {
+      "id": "CnType",
+      "step": 17
+    },
+    {
+      "id": "Amount",
+      "step": 18
+    },
+    {
+      "id": "SaveBtn",
+      "step": 19
+    }
+  ]
+}

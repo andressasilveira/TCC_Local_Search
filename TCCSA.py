@@ -1,6 +1,7 @@
 # Simulated Annealing for Clustering Problems
 import math
 import random
+import os
 
 from FileCluster import FileCluster
 
@@ -8,7 +9,9 @@ STEP_PROPERTY = 'step'
 ID_PROPERTY = 'id'
 TIMES_PROPERTY = 'times'
 
-files_to_be_used = ['./testcases/case1.json', './testcases/case2.json', './testcases/case3.json']
+
+
+files_to_be_used = [os.listdir('./testcases/')]
 num_fields = 6  # numero total de campos
 num_users = len(files_to_be_used)
 

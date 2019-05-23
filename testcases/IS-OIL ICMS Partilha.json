@@ -1,0 +1,52 @@
+{
+  "orderOfFields": [
+    {
+      "id": "OrderType",
+      "step": 1
+    },
+    {
+      "id": "SalesOrg",
+      "step": 2
+    },
+    {
+      "id": "DistChannel",
+      "step": 3
+    },
+    {
+      "id": "Division",
+      "step": 4
+    },
+    {
+      "id": "Enter",
+      "step": 5
+    },
+    {
+      "id": "SoldToParty",
+      "step": 6
+    },
+    {
+      "id": "PONum",
+      "step": 7
+    },
+    {
+      "id": "Material",
+      "step": 8
+    },
+    {
+      "id": "OrderQtd",
+      "step": 9
+    },
+    {
+      "id": "Plnt",
+      "step": 10
+    },
+    {
+      "id": "Enter",
+      "step": 11
+    },
+    {
+      "id": "SaveBtn",
+      "step": 12
+    }
+  ]
+}

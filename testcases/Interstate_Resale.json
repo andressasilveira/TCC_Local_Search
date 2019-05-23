@@ -1,0 +1,88 @@
+{
+  "orderOfFields": [
+    {
+      "id": "OrderType",
+      "steps": 1
+    },
+    {
+      "id": "SalesOrg",
+      "steps": 2
+    },
+    {
+      "id": "DistChannel",
+      "steps": 3
+    },
+    {
+      "id": "Division",
+      "steps": 4
+    },
+    {
+      "id": "Enter",
+      "steps": 5
+    },
+    {
+      "id": "SoldToParty",
+      "steps": 6
+    },
+    {
+      "id": "PONum",
+      "steps": 7
+    },
+    {
+      "id": "Material",
+      "steps": 8
+    },
+    {
+      "id": "OrderQtd",
+      "steps": 9
+    },
+    {
+      "id": "ItemDClick",
+      "steps": 10
+    },
+    {
+      "id": "CountryTab",
+      "steps": 11
+    },
+    {
+      "id": "TaxCode",
+      "steps": 12
+    },
+    {
+      "id": "CFOP",
+      "steps": 13
+    },
+    {
+      "id": "ICMSTxt",
+      "steps": 14
+    },
+    {
+      "id": "IPITxt",
+      "steps": 15
+    },
+    {
+      "id": "LawCOFINS",
+      "steps": 16
+    },
+    {
+      "id": "LawPIS",
+      "steps": 17
+    },
+    {
+      "id": "CondTab",
+      "steps": 18
+    },
+    {
+      "id": "CnType",
+      "steps": 19
+    },
+    {
+      "id": "Amount",
+      "steps": 20
+    },
+    {
+      "id": "SaveBtn",
+      "steps": 21
+    }
+  ]
+}
