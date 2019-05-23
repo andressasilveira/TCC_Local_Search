@@ -2,87 +2,87 @@
   "orderOfFields": [
     {
       "id": "OrderType",
-      "steps": 1
+      "step": 1
     },
     {
       "id": "SalesOrg",
-      "steps": 2
+      "step": 2
     },
     {
       "id": "DistChannel",
-      "steps": 3
+      "step": 3
     },
     {
       "id": "Division",
-      "steps": 4
+      "step": 4
     },
     {
       "id": "Enter",
-      "steps": 5
+      "step": 5
     },
     {
       "id": "SoldToParty",
-      "steps": 6
+      "step": 6
     },
     {
       "id": "PONum",
-      "steps": 7
+      "step": 7
     },
     {
       "id": "Material",
-      "steps": 8
+      "step": 8
     },
     {
       "id": "OrderQtd",
-      "steps": 9
+      "step": 9
     },
     {
       "id": "ItemDClick",
-      "steps": 10
+      "step": 10
     },
     {
       "id": "CountryTab",
-      "steps": 11
+      "step": 11
     },
     {
       "id": "TaxCode",
-      "steps": 12
+      "step": 12
     },
     {
       "id": "CFOP",
-      "steps": 13
+      "step": 13
     },
     {
       "id": "ICMSTxt",
-      "steps": 14
+      "step": 14
     },
     {
       "id": "IPITxt",
-      "steps": 15
+      "step": 15
     },
     {
       "id": "LawCOFINS",
-      "steps": 16
+      "step": 16
     },
     {
       "id": "LawPIS",
-      "steps": 17
+      "step": 17
     },
     {
       "id": "CondTab",
-      "steps": 18
+      "step": 18
     },
     {
       "id": "CnType",
-      "steps": 19
+      "step": 19
     },
     {
       "id": "Amount",
-      "steps": 20
+      "step": 20
     },
     {
       "id": "SaveBtn",
-      "steps": 21
+      "step": 21
     }
   ]
 }

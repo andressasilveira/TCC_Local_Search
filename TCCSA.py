@@ -9,9 +9,7 @@ STEP_PROPERTY = 'step'
 ID_PROPERTY = 'id'
 TIMES_PROPERTY = 'times'
 
-
-
-files_to_be_used = [os.listdir('./testcases/')]
+files_to_be_used = os.listdir('./testcases/')
 num_fields = 6  # numero total de campos
 num_users = len(files_to_be_used)
 
@@ -37,8 +35,9 @@ final_temperature = -beta * avg_cost_increase / math.log(prob_e)
 # taxa de diminuição da temperatura
 alpha = math.pow(final_temperature / initial_temperature, 1 / num_temperature)
 
+
 def simulated_annealing(max_iter, initial_temperature, alpha, final_temperature, initial_state):
-    #clusteriza as informações dos arquivos
+    # clusteriza as informações dos arquivos
     fileCluster = FileCluster(files_to_be_used)
     initial_state = fileCluster.cluster_files()
 
@@ -63,6 +62,7 @@ def simulated_annealing(max_iter, initial_temperature, alpha, final_temperature,
         t = alpha * t
     print("Final", current_state)
     print("Energy of final state:", value(current_state))
+
 
 # calcula energia: quanto maior a energia, pior o resultado
 def value(state):

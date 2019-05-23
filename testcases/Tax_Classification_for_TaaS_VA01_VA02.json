@@ -1,7 +1,7 @@
 {
   "orderOfFields": [
     {
-      "stepid": "OrderType",
+      "id": "OrderType",
       "step": 1
     },
     {

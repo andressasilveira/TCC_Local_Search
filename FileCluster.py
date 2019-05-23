@@ -17,6 +17,7 @@ class FileCluster:
     def cluster_files(self):
         results = []
         for file_name in self.filenames:
+            file_name = './testcases/' + file_name
             data = self.read_file(file_name)
             map_result = self.convert_order_to_map(data)
             results = self.merge(results, map_result)

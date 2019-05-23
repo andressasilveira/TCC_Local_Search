@@ -2,59 +2,59 @@
   "orderOfFields": [
     {
       "id": "OrderType",
-      "steps": 1
+      "step": 1
     },
     {
       "id": "SalesOrg",
-      "steps": 2
+      "step": 2
     },
     {
       "id": "DistChannel",
-      "steps": 3
+      "step": 3
     },
     {
       "id": "Division",
-      "steps": 4
+      "step": 4
     },
     {
       "id": "CreateWRefBtn",
-      "steps": 5
+      "step": 5
     },
     {
       "id": "BillingDoc",
-      "steps": 6
+      "step": 6
     },
     {
       "id": "Enter",
-      "steps": 7
+      "step": 7
     },
     {
       "id": "HeaderBtn",
-      "steps": 8
+      "step": 8
     },
     {
       "id": "OrderReason",
-      "steps": 9
+      "step": 9
     },
     {
       "id": "BackBtn",
-      "steps": 10
+      "step": 10
     },
     {
       "id": "ItemDClick",
-      "steps": 11
+      "step": 11
     },
     {
       "id": "CountryTab",
-      "steps": 12
+      "step": 12
     },
     {
       "id": "CFOP",
-      "steps": 13
+      "step": 13
     },
     {
       "id": "SaveBtn",
-      "steps": 14
+      "step": 14
     }
   ]
 }
