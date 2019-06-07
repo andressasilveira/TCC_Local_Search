@@ -1,6 +1,8 @@
 # Simulated Annealing for Clustering Problems
 import math
 import random
+import json
+import os
 
 
 TIMES_PROPERTY = "times"
@@ -40,6 +42,16 @@ class SimulatedAnneling:
             t = self.alpha * t
         print("Final", current_state)
         print("Energy of final state:", self.value(current_state))
+        to_print = {
+            'final_state': current_state,
+            'energy': self.value(current_state)
+        }
+        export_results(to_print)
+
+
+def export_results(current_state):
+    with open('./results/results_' + datetime.datetime.now().strftime("%Y%m%d%H%M%S") + '.json', 'w') as json_file:
+        json.dump(current_state, json_file)
 
     # calcula energia: quanto maior a energia, pior o resultado
     def value(self, state):
