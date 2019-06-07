@@ -141,7 +141,19 @@ class FieldTest(unittest.TestCase):
                   {'id': 'OrderReason', 'times': 1, 'step': 9},
                   {'id': 'BackBtn', 'times': 1, 'step': 10}, {'id': 'Unity', 'times': 2, 'step': 9}, {'id': 'DetailButton', 'times': 2, 'step': 13}]
         simulatedAnnelingValue = SimulatedAnneling(10, 32, 1, 1, 1, 1, 1)
-        self.assertEqual(225, simulatedAnnelingValue.value(fields))
+        self.assertEqual(225, simulatedAnnelingValue.value(fields
+                                                           
+    def test_cluster_swap(self):
+        simulatedAnneling = SimulatedAnneling(6, 4, 1, 1, 1, 1, 1)
+        fields = [
+            {'id': 'material', 'times': 1, 'father': '', 'step': 1},
+            {'id': 'material_daughter', 'times': 10, 'father': 'material', 'step': 2}
+        ]
+
+        result = simulatedAnneling.swap(fields,1, False)
+
+        self.assertEqual(fields, result, 'You cannot change the father from the son!')
+                                                           
 
 if __name__ == "__main__":
     unittest.main()
