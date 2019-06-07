@@ -30,8 +30,8 @@ class FieldTest(unittest.TestCase):
 
         simulatedAnnelingValue = SimulatedAnneling(10, 6, 1, 1, 1, 1, 1)
 
-        self.assertEqual(simulatedAnnelingValue.value([field1, field2, field3, field4, field5]), 6, 'Not equal')
-        self.assertEqual(simulatedAnnelingValue.value([field5, field4, field3, field1, field2]), 12, 'Not equal')
+        self.assertEqual(simulatedAnnelingValue.value([field1, field2, field3, field4, field5]), 3, 'Not equal')
+        self.assertEqual(simulatedAnnelingValue.value([field5, field4, field3, field1, field2]), 9, 'Not equal')
 
     def test_case1(self):
         fields = [{'id': 4, 'times': 3, 'step': 4},
@@ -42,7 +42,7 @@ class FieldTest(unittest.TestCase):
                   {'id': 3, 'times': 3, 'step': 2}]
 
         simulatedAnnelingValue = SimulatedAnneling(10, 6, 1, 1, 1, 1, 1)
-        self.assertEqual(6, simulatedAnnelingValue.value(fields))
+        self.assertEqual(17, simulatedAnnelingValue.value(fields))
 
     def test_original_value(self):
         fields = [{'id': 'OrderType', 'times': 10, 'step': 1},
@@ -106,7 +106,7 @@ class FieldTest(unittest.TestCase):
                   {'id': 'LawPIS', 'times': 3, 'step': 19}, {'id': 'CondTab', 'times': 3, 'step': 17},
                   {'id': 'CnType', 'times': 3, 'step': 18}, {'id': 'Amount', 'times': 3, 'step': 19}]
         simulatedAnnelingValue = SimulatedAnneling(10, 32, 1, 1, 1, 1, 1)
-        self.assertEqual(166, simulatedAnnelingValue.value(fields))
+        self.assertEqual(197, simulatedAnnelingValue.value(fields))
 
 
     def test_wrong_scenario(self):
@@ -141,7 +141,7 @@ class FieldTest(unittest.TestCase):
                   {'id': 'OrderReason', 'times': 1, 'step': 9},
                   {'id': 'BackBtn', 'times': 1, 'step': 10}, {'id': 'Unity', 'times': 2, 'step': 9}, {'id': 'DetailButton', 'times': 2, 'step': 13}]
         simulatedAnnelingValue = SimulatedAnneling(10, 32, 1, 1, 1, 1, 1)
-        self.assertEqual(166, simulatedAnnelingValue.value(fields))
+        self.assertEqual(225, simulatedAnnelingValue.value(fields))
 
 if __name__ == "__main__":
     unittest.main()
