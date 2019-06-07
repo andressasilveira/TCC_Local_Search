@@ -1,5 +1,4 @@
 import json
-import statistics
 
 TIMES_PROPERTY = "times"
 STEP_PROPERTY = "step"
