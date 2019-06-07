@@ -3,6 +3,7 @@ import math
 import random
 import json
 import os
+import datetime
 
 
 TIMES_PROPERTY = "times"
@@ -46,12 +47,12 @@ class SimulatedAnneling:
             'final_state': current_state,
             'energy': self.value(current_state)
         }
-        export_results(to_print)
+        self.export_results(to_print)
 
 
-def export_results(current_state):
-    with open('./results/results_' + datetime.datetime.now().strftime("%Y%m%d%H%M%S") + '.json', 'w') as json_file:
-        json.dump(current_state, json_file)
+    def export_results(self, current_state):
+        with open('./results/results_' + datetime.datetime.now().strftime("%Y%m%d%H%M%S") + '.json', 'w') as json_file:
+            json.dump(current_state, json_file)
 
     # calcula energia: quanto maior a energia, pior o resultado
     def value(self, state):
@@ -76,18 +77,21 @@ def export_results(current_state):
 
             # [RUIM+] Se a posição do campo na fila é maior/igual que a média da Ordem e o
             # nro de vezes que o campo é acessado é menor que o número mínimo de usuários
-            if (position >= avg_order and times < min_users) or (times < min_users):
+            if (position >= avg_order and times <= min_users) or (times <= min_users):
                 penalty = len(state) - i  # Aplica penalidade como o tamanho do estado +1
                 energy += penalty  # soma penalidade + 1 ao total de energia
             # [BOM+] Se nro de vezes que o campo é acessado é maior que o número mínimo de usuários
             elif times > more_equal_avg_user__use_field:
-                energy += 1  # soma 1 ao total de energia
+                energy += 0  # soma 1 ao total de energia
             # [BOM] Se a posição do campo na fila é menor/igual que a média da Ordem e o
             # nro de vezes que o campo é acessado é maior que o número mínimo de usuários
             elif position <= avg_order and times > min_users:
                 energy += 1
+            # caso neutro
             else:
-                energy += 1
+                energy += 2
+
+            #print('loop: '+ str(i) + ' and the energy is: '+ str(energy) + ' considering the position: ' + str(position) + ' plus the times: ' + str(times))
 
         return energy
 
