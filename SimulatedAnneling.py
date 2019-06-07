@@ -2,7 +2,6 @@
 import math
 import random
 import json
-import os
 import datetime
 
 
@@ -106,6 +105,13 @@ class SimulatedAnneling:
 
         first_posi = position - 1 if position == len(array) else position
         replace_posi = self.get_place_to_swap(copy_array, position, right)
+
+        # checa se precisa dar swap
+        possible_father = array[replace_posi]
+        possible_son = array[first_posi]
+        if 'father' in possible_son:
+            if possible_son['father'] == possible_father['id']:
+                return array
 
         from_old = copy_array[first_posi]
         to_old = copy_array[replace_posi]
