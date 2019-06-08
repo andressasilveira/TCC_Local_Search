@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5929a31f-70ac-4bc8-b6f7-e6125bb82ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulatedAnneling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TCC_Local_Search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TCC_Local_Search.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FileCluster.py" beforeDir="false" afterPath="$PROJECT_DIR$/FileCluster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulatedAnneling.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimulatedAnneling.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TCCSA.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCCSA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results_20190607005836.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results_20190607005907.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results_20190607005911.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results_20190607005913.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results_20190607005916.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results_20190607005918.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/results_20190607005920.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/TestTCCSA.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestTCCSA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/Exclude IPI - REB.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/Exclude IPI - REB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/FutureDelivery_TAXBRA.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/FutureDelivery_TAXBRA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/IS-OIL ICMS Partilha.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/IS-OIL ICMS Partilha.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/Interstate_Resale.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/Interstate_Resale.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/LC_116_Test_Case.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/LC_116_Test_Case.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/ORB - exclusion from IPI base configuration.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/ORB - exclusion from IPI base configuration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/ORB_Sales_Process_TAXBRJ.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/ORB_Sales_Process_TAXBRJ.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/Tax_Classification_for_TaaS_VA01_VA02.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/Tax_Classification_for_TaaS_VA01_VA02.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/ZFM_IPI_EXCIPI_TAXBRA.json" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/ZFM_IPI_EXCIPI_TAXBRA.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TCCSA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="207">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
               </folding>
@@ -30,22 +46,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TestTCCSA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SimulatedAnneling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="217">
+              <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
               </folding>
@@ -54,10 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results/results_20190607005836.json">
+        <entry file="file://$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-end-column="1434" />
+            <state relative-caret-position="-779">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -65,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FileCluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="271">
+              <caret line="34" column="44" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -98,7 +102,13 @@
       <find>num_users</find>
       <find>num_</find>
       <find>num_fields</find>
+      <find>materi</find>
+      <find>country</find>
+      <find>material</find>
       <find>action_on</find>
+      <find>swap</find>
+      <find>len</find>
+      <find>len(</find>
     </findStrings>
     <replaceStrings>
       <replace>right</replace>
@@ -111,23 +121,26 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TCCSA.py" />
+        <option value="$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json" />
+        <option value="$PROJECT_DIR$/FileCluster.py" />
         <option value="$PROJECT_DIR$/test/TestTCCSA.py" />
+        <option value="$PROJECT_DIR$/TCCSA.py" />
         <option value="$PROJECT_DIR$/SimulatedAnneling.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
-    <option name="y" value="130" />
+    <option name="y" value="126" />
     <option name="width" value="1440" />
-    <option name="height" value="780" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,7 +151,7 @@
             <path>
               <item name="TCC_Local_Search" type="b2602c69:ProjectViewProjectNode" />
               <item name="TCC_Local_Search" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="result_csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TCC_Local_Search" type="b2602c69:ProjectViewProjectNode" />
@@ -148,7 +161,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +180,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in TestTCCSA.py">
+  <component name="RunManager" selected="Python.TCCSA">
     <configuration name="TCCSA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TCC_Local_Search" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for TestTCCSA.FieldTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for TestTCCSA.FieldTest.test_cluster_swap" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TCC_Local_Search" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +213,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestTCCSA.FieldTest&quot;" />
+      <option name="_new_target" value="&quot;TestTCCSA.FieldTest.test_cluster_swap&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for TestTCCSA.FieldTest.test_original_value" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for TestTCCSA.FieldTest.test_has_father_before" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TCC_Local_Search" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +228,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestTCCSA.FieldTest.test_original_value&quot;" />
+      <option name="_new_target" value="&quot;TestTCCSA.FieldTest.test_has_father_before&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for TestTCCSA.FieldTest.test_value" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for TestTCCSA.FieldTest.test_real_scenario" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="TCC_Local_Search" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -231,39 +243,22 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;TestTCCSA.FieldTest.test_value&quot;" />
+      <option name="_new_target" value="&quot;TestTCCSA.FieldTest.test_real_scenario&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in TestTCCSA.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="TCC_Local_Search" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/TestTCCSA.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.TCCSA" />
-      <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest" />
-      <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_original_value" />
-      <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_value" />
-      <item itemvalue="Python tests.pytest in TestTCCSA.py" />
+      <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_cluster_swap" />
+      <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_real_scenario" />
+      <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_has_father_before" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in TestTCCSA.py" />
         <item itemvalue="Python.TCCSA" />
-        <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_original_value" />
-        <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest" />
-        <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_value" />
+        <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_has_father_before" />
+        <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_real_scenario" />
+        <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_cluster_swap" />
       </list>
     </recent_temporary>
   </component>
@@ -281,51 +276,60 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_value - 2019.06.06 at 21h 31m 12s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest.test_value" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_cluster_swap - 2019.06.07 at 21h 23m 28s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_cluster_swap" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_value - 2019.06.06 at 21h 31m 19s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest.test_value" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_cluster_swap - 2019.06.07 at 22h 24m 30s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_cluster_swap" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest - 2019.06.06 at 21h 31m 27s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_real_scenario - 2019.06.07 at 22h 29m 36s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_real_scenario" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest - 2019.06.06 at 21h 35m 56s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_real_scenario - 2019.06.07 at 22h 30m 05s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_real_scenario" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest - 2019.06.06 at 21h 35m 58s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_real_scenario - 2019.06.07 at 22h 31m 10s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_real_scenario" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest - 2019.06.06 at 21h 36m 06s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_real_scenario - 2019.06.07 at 22h 31m 34s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_real_scenario" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_original_value - 2019.06.06 at 21h 42m 03s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest.test_original_value" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_real_scenario - 2019.06.07 at 22h 33m 07s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_real_scenario" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest - 2019.06.06 at 21h 43m 20s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_real_scenario - 2019.06.07 at 22h 33m 29s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_real_scenario" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest - 2019.06.06 at 21h 43m 32s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_has_father_before - 2019.06.07 at 22h 44m 18s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_has_father_before" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_original_value - 2019.06.06 at 21h 44m 48s.xml">
-      <configuration name="pytest for TestTCCSA.FieldTest.test_original_value" configurationId="tests" />
+    <history-entry file="pytest_for_TestTCCSA_FieldTest_test_has_father_before - 2019.06.07 at 22h 44m 43s.xml">
+      <configuration name="pytest for TestTCCSA.FieldTest.test_has_father_before" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2665964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.86260056" visible="true" weight="0.48212352" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86260056" visible="true" weight="0.40452617" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.13739946" side_tool="true" weight="0.32673267" />
@@ -360,14 +364,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TCCSA.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/test/TestTCCSA.py</url>
           <line>76</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SimulatedAnneling.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -375,12 +379,47 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>simulatedAnnelingValue.value(fields)</expression-string>
+        <expression-string>csvData</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>simulatedAnnelingValue.value([field1, field2, field3, field4, field5])</expression-string>
+        <expression-string>field['id']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(current_state)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>second_var['father'] == first_var['id'] or first_var['father'] == second_var['id']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>'father' in possible_son</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>possible_son.has_key('father')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>hasattr(possible_son, 'father')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[first_posi][''father'']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>array[first_posi]['anta']</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -401,49 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestFileCluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestTCCSA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FileCluster.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TCCSA.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#46#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TCC_Local_Search - Copy/TCCSA.py" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -459,10 +455,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/results/results_20190607222241.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-end-column="2290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/results_20190608153134.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestTCCSA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="158" column="21" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_csv/result_cluster20190608162649.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TestFileCluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_csv/result_cluster20190608162823.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileCluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="34" column="44" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result_csv/result_cluster.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SimulatedAnneling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="217">
+          <caret line="77" column="37" lean-forward="true" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+          <folding>
+            <element signature="e#46#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TCCSA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="e#46#57#0" expanded="true" />
           </folding>

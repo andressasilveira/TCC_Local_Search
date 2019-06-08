@@ -143,5 +143,32 @@ class FieldTest(unittest.TestCase):
         simulatedAnnelingValue = SimulatedAnneling(10, 32, 1, 1, 1, 1, 1)
         self.assertEqual(225, simulatedAnnelingValue.value(fields))
 
+    def test_cluster_swap(self):
+        simulatedAnneling = SimulatedAnneling(6, 4, 1, 1, 1, 1, 1)
+        fields = [
+            {'id': 'material', 'times': 1, 'father': '', 'step': 1},
+            {'id': 'material_daughter', 'times': 10, 'father': 'material', 'step': 2}
+        ]
+
+        result = simulatedAnneling.swap(fields,1, False)
+        self.assertEqual(fields, result, 'You cannot change the father from the son!')
+
+        result = simulatedAnneling.swap(fields, 0, True)
+        self.assertEqual(fields, result, 'Father was swapped with user! Watch out mater')
+
+    def test_has_father_before(self):
+        simulatedAnneling = SimulatedAnneling(6, 4, 1, 1, 1, 1, 1)
+        fields = [{'id': 'OrderType', 'times': 10, 'step': 1, 'father': ''}, #0
+                  {'id': 'SalesOrg', 'times': 10, 'step': 2, 'father': 'Material'},
+                  {'id': 'Material', 'times': 9, 'step': 7, 'father': 'OrderType'},
+                  {'id': 'Amount', 'times': 3, 'step': 19, 'father': 'no_father_provided'}]
+
+        result = simulatedAnneling.has_father_before(fields, 1)
+        self.assertFalse(result, 'I found a father?!')
+
+        result = simulatedAnneling.has_father_before(fields, 2)
+        self.assertTrue(result, 'I should find my father!')
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -38,4 +38,9 @@ initial_state = fileCluster.cluster_files()
 
 if __name__ == "__main__":
     simulated_annealing = SimulatedAnneling(num_users, num_fields, initial_state, max_iter, initial_temperature, alpha, final_temperature)
-    simulated_annealing.execute_simulation()
+
+    for i in range(10):
+        simulated_annealing.execute_simulation()
+
+
+

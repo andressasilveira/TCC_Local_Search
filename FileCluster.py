@@ -3,6 +3,7 @@ import json
 TIMES_PROPERTY = "times"
 STEP_PROPERTY = "step"
 ID_PROPERTY = "id"
+FATHER_PROPERTY = 'father'
 ORDER_OF_FIELDS_PROPERTY = "orderOfFields"
 
 class FileCluster:
@@ -28,6 +29,10 @@ class FileCluster:
         for data in order_data[ORDER_OF_FIELDS_PROPERTY]:
             id = data[ID_PROPERTY]
             step = data[STEP_PROPERTY]
+            if FATHER_PROPERTY in data:
+                father = data[FATHER_PROPERTY]
+            else:
+                father = "no_father_provided"
             known_field = self.find_field_by_id(id, map_result)
 
             if known_field is not None:
@@ -35,7 +40,7 @@ class FileCluster:
                 map_result[index][TIMES_PROPERTY] += 1
                 map_result[index][STEP_PROPERTY] = int((map_result[index][STEP_PROPERTY] + step) / 2)
             else:
-                result = {ID_PROPERTY: id, TIMES_PROPERTY: 1, STEP_PROPERTY: step}
+                result = {ID_PROPERTY: id, TIMES_PROPERTY: 1, STEP_PROPERTY: step, FATHER_PROPERTY: father}
                 map_result.append(result)
 
         return map_result

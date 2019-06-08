@@ -2,59 +2,73 @@
   "orderOfFields": [
     {
       "id": "OrderType",
-      "step": 1
+      "step": 1,
+      "father": ""
     },
     {
       "id": "SalesOrg",
-      "step": 2
+      "step": 2,
+      "father": "OrderType"
     },
     {
       "id": "DistChannel",
-      "step": 3
+      "step": 3,
+      "father": "OrderType"
     },
     {
       "id": "Division",
-      "step": 4
+      "step": 4,
+      "father": "OrderType"
     },
     {
       "id": "CreateWRefBtn",
-      "step": 5
+      "step": 5,
+      "father": "OrderType"
     },
     {
       "id": "BillingDoc",
-      "step": 6
+      "step": 6,
+      "father": "CreateWRefBtn"
     },
     {
       "id": "Enter",
-      "step": 7
+      "step": 7,
+      "father": "CreateWRefBtn"
     },
     {
       "id": "HeaderBtn",
-      "step": 8
+      "step": 8,
+      "father": "OrderReason"
     },
     {
       "id": "OrderReason",
-      "step": 9
+      "step": 9,
+      "father": "HeaderBtn"
     },
     {
       "id": "BackBtn",
-      "step": 10
+      "step": 10,
+      "father": "HeaderBtn"
     },
     {
       "id": "ItemDClick",
-      "step": 11
+      "step": 11,
+      "father": "OrderType"
     },
     {
       "id": "CountryTab",
-      "step": 12
+      "step": 12,
+      "father": "ItemDClick"
     },
     {
       "id": "CFOP",
-      "step": 13
+      "step": 13,
+      "father": "CountryTab"
     },
     {
       "id": "SaveBtn",
-      "step": 14
+      "step": 14,
+      "father": "OrderType"
     }
   ]
 }

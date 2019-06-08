@@ -2,59 +2,73 @@
   "orderOfFields": [
     {
       "id": "OrderType",
-      "step": 1
+      "step": 1,
+      "father": ""
     },
     {
       "id": "SalesOrg",
-      "step": 2
+      "step": 2,
+      "father": "OrderType"
     },
     {
       "id": "DistChannel",
-      "step": 3
+      "step": 3,
+      "father": "OrderType"
     },
     {
       "id": "Division",
-      "step": 4
+      "step": 4,
+      "father": "OrderType"
     },
     {
       "id": "Enter",
-      "step": 5
+      "step": 5,
+      "father": "OrderType"
     },
     {
       "id": "SoldToParty",
-      "step": 6
+      "step": 6,
+      "father": "OrderType"
     },
     {
       "id": "PONum",
-      "step": 7
+      "step": 7,
+      "father": "OrderType"
     },
     {
       "id": "Material",
-      "step": 8
+      "step": 8,
+      "father": "Material"
     },
     {
       "id": "OrderQtd",
-      "step": 9
+      "step": 9,
+      "father": "Material"
     },
     {
       "id": "ItemDClick",
-      "step": 10
+      "step": 10,
+      "father": "Material"
     },
     {
       "id": "CountryTab",
-      "step": 11
+      "step": 11,
+      "father": ""
     },
     {
       "id": "TaxCode",
-      "step": 12
+      "step": 12,
+      "father": "CountryTab"
     },
     {
       "id": "CFOP",
-      "step": 13
+      "step": 13,
+      "father": "CountryTab"
     },
     {
       "id": "SaveBtn",
-      "step": 14
+      "step": 14,
+      "father": "OrderType"
     }
   ]
 }
