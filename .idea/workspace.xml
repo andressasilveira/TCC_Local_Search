@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5929a31f-70ac-4bc8-b6f7-e6125bb82ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimulatedAnneling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TCC_Local_Search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TCC_Local_Search.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCCSA.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCCSA.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TestTCCSA.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestTCCSA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimulatedAnneling.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimulatedAnneling.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,22 +15,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TCCSA.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="173">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TestTCCSA.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="144" selection-start-line="144" selection-end-line="144" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SimulatedAnneling.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="286">
+              <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
               <folding>
                 <element signature="e#46#57#0" expanded="true" />
               </folding>
@@ -54,10 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results/results_20190607005836.json">
+        <entry file="file://$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" selection-end-column="1434" />
+            <state relative-caret-position="-881">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -65,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FileCluster.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="203">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -128,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,18 +121,12 @@
             </path>
             <path>
               <item name="TCC_Local_Search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TCC_Local_Search" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TCC_Local_Search" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in TestTCCSA.py">
+  <component name="RunManager" selected="Python.TCCSA">
     <configuration name="TCCSA" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TCC_Local_Search" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,8 +237,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in TestTCCSA.py" />
         <item itemvalue="Python.TCCSA" />
+        <item itemvalue="Python tests.pytest in TestTCCSA.py" />
         <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_original_value" />
         <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest" />
         <item itemvalue="Python tests.pytest for TestTCCSA.FieldTest.test_value" />
@@ -313,15 +291,14 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2665964" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.86260056" visible="true" weight="0.48212352" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86260056" visible="true" weight="0.40452617" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcases/CFOP_Tax_Laws_Non_Blocked.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="-881">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -429,15 +406,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FileCluster.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="203">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TCCSA.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="173">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
           <folding>
             <element signature="e#46#57#0" expanded="true" />
           </folding>
@@ -461,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SimulatedAnneling.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="286">
+          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
           <folding>
             <element signature="e#46#57#0" expanded="true" />
           </folding>

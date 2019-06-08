@@ -4,8 +4,9 @@ import random
 import json
 import os
 import datetime
+import csv
 
-
+CSV_LINES = []
 TIMES_PROPERTY = "times"
 STEP_PROPERTY = "step"
 ID_PROPERTY = "id"
@@ -47,6 +48,7 @@ class SimulatedAnneling:
             'final_state': current_state,
             'energy': self.value(current_state)
         }
+        self.export_results_to_csv(current_state)
         self.export_results(to_print)
 
 
@@ -130,3 +132,26 @@ class SimulatedAnneling:
                 return len(array) - 1
             else:
                 return position - 1
+
+    def export_results_to_csv(self, current_state):
+        csvData = []
+        columns=['OrderType','Material','ShippingTab','Enter','SalesOrg','CountryTab','Plnt','SaveBtn','CFOP','OrderQtd','TaxCode','Division','SoldToParty','DistChannel','ItmCheckBox','ItemCat','CreateWRefBtn','DetailButton','Unity','BillingDoc','HeaderBtn','ICMSTxt','PONum','ItemDClick','OrderReason','BackBtn','LawCOFINS','CondTab','IPITxt','Amount','LawPIS','CnType']
+        csvData.append(columns)
+        lines = []
+        for field in current_state:
+            lines.append(str(self.find_my_position_on_columns(columns, field['id'])))
+
+        CSV_LINES.append(lines)
+        for line in CSV_LINES:
+            csvData.append(line)
+        with open('./result_csv/result_cluster.csv', 'w') as csvFile:
+            writer = csv.writer(csvFile)
+            writer.writerows(csvData)
+            csvFile.close()
+
+    def find_my_position_on_columns(self, array_of_columns, id):
+        count = 0
+        for column_name in array_of_columns:
+            count += 1
+            if column_name == id:
+                return count #posição real
